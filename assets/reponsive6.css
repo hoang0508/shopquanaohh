@@ -1,0 +1,340 @@
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+  }
+  /* 1 header */
+
+  .header {
+    width: 100%;
+    height: 90px;
+  }
+
+  .header img {
+    width: 45%;
+  }
+
+  ul.the-header-menu-item {
+    display: none;
+  }
+
+  .cart_buy {
+    display: block;
+    font-size: 26px;
+    color: #fff;
+  }
+
+  /*header two*/
+
+  .header-two a {
+    text-decoration: none;
+    color: #888;
+    font-size: 12px;
+  }
+
+  .header-two i {
+    font-size: 16px;
+    margin: 0px 5px 0px 5px;
+    color: #888;
+  }
+
+  /* Bar */
+
+  .menu_sidebar i {
+    display: block;
+    color: #fff;
+    margin: auto;
+    font-size: 26px;
+  }
+
+  .nav__ip:checked ~ .overlay {
+    display: block;
+  }
+
+  .nav__ip:checked ~ .the-menu_moblie {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+
+  #nav-mb-input {
+    display: none;
+  }
+
+  .the-menu_moblie {
+    padding: 15px 20px;
+    display: block;
+    position: fixed;
+    background-color: #2f2f2f;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+    transform: translateX(130%);
+    transition: transform linear 0.3s, opacity linear 0.3s;
+  }
+
+  .header_sidebar {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header_sidebar img.logo_bar {
+    width: 40%;
+  }
+
+  .icon_times i {
+    font-size: 30px;
+    color: #fff;
+  }
+
+  .mobile_search {
+    margin-top: 15px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+  .mobile_search input {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    outline: none;
+  }
+
+  .mobile_search i.fa-search {
+    position: absolute;
+    top: 30%;
+    right: 4%;
+  }
+
+  ul.menu_list-mobile {
+    list-style: none;
+  }
+
+  ul.menu_list-mobile li {
+    padding-bottom: 10px;
+  }
+
+  ul.menu_list-mobile li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+  }
+
+  .overlay {
+    display: none;
+    position: fixed;
+    z-index: 20;
+    background-color: rgba(0, 0, 0, 0.4);
+    opacity: 0.6;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    animation: fadeIn linear 0.3s;
+  }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  /* .product_cart */
+
+  .product_cart {
+    margin-top: 40px;
+  }
+
+  .product_cart .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .product_cart-img {
+    width: 100%;
+  }
+
+  .product_cart-buy {
+    margin-left: 0px;
+    width: 100%;
+  }
+
+  .product_cart h1.title-product {
+    margin-top: 10px;
+    font-size: 26px;
+    font-weight: 500;
+  }
+
+  /*tap_product*/
+
+  .tap_product {
+    margin-top: 35px;
+  }
+
+  .tap_product .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  ul.product_list li a {
+    text-decoration: none;
+    padding-right: -1px;
+    /* margin-right: 22px; */
+    color: black;
+    font-size: 12px;
+    padding-right: 17px;
+  }
+
+  ul.product_list li.active-item a::after {
+    background: #000;
+    bottom: -1px;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    right: 50%;
+    width: 0;
+    -webkit-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    left: 0;
+    right: 0;
+    width: 33%;
+  }
+
+  .tap_product .txt_description {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 1.8;
+  }
+
+  /* text*/
+
+  .The-text {
+    margin-top: 62px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 0px;
+    cursor: pointer;
+  }
+
+  .The-text .The-text-San {
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: "SVN-Veneer";
+    height: 70px;
+    line-height: 2;
+    border-bottom: 1px solid black;
+  }
+
+  /* 4 Clothes*/
+
+  .The-clothes {
+    margin-top: 65px;
+  }
+
+  .The-clothes-men-one {
+    width: 47%;
+  }
+
+  .The-clothes-men-text .The-clothes-men-text-clothes {
+    font-size: 12px;
+  }
+
+  /* 8 footer-1*/
+
+  .the-footer-1 {
+    height: 0;
+    padding-bottom: 215px;
+  }
+
+  .the-footer-1 .container {
+    width: 90%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .the-footer-1 img {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    width: 40%;
+  }
+
+  .the-footer-1 .container-header p {
+    font-size: 12px;
+    padding-bottom: 20px;
+  }
+
+  /*9 footer-2*/
+
+  .the-footer-2 {
+    text-align: center;
+    padding-bottom: 230px;
+    height: 0;
+    background-color: #484848;
+  }
+
+  .the-footer-2 .container {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .the-footer-2 img {
+    width: 70%;
+    margin-top: 20px;
+  }
+
+  .the-footer-menu a {
+    text-decoration: none;
+    border-right: 1px solid rgb(122, 120, 116);
+    height: 20px;
+  }
+
+  .the-footer-menu a p {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: white;
+    padding: 0px 5px;
+    margin-bottom: 10px;
+  }
+
+  .the-menu-license {
+    font-size: 12px;
+  }
+
+  .middle {
+    margin-top: 40px;
+    position: absolute;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+  }
+
+  .btn {
+    line-height: 30px;
+    font-size: 16px;
+    transition: 0.2s linear;
+  }
+
+  .btn {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px 15px -5px #00000070;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+  }
+}

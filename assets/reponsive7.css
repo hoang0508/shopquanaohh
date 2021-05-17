@@ -1,0 +1,38 @@
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+  }
+
+  .amount_product .form_input-size input {
+    width: 50%;
+    height: 42px;
+    outline: none;
+    text-indent: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  .product_cart-buy a.link_btn {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: #86590d;
+    color: #fff;
+    padding: 10px 15px;
+    border: 1px solid;
+    border-color: #86590d;
+    border-radius: 25px;
+  }
+
+  .size_product input {
+    width: 13%;
+    height: 35px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+}
